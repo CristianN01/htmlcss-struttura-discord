@@ -106,3 +106,36 @@ div.main-lastflex > button{
     order: -1;
 }
 
+.footer-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #23272a;
+    padding: 4rem 3rem 1rem 3rem;
+    column-gap: 20px;
+}
+.titolo-footer{
+    width: 70%;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo-button{
+    display: flex;
+    flex: 1;
+    background-color:#23272a ;
+    flex-wrap: wrap;
+}
+
+hr{
+    flex-grow: 1;
+}
