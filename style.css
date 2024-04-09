@@ -25,9 +25,7 @@ body{
 
 .header-flex{
     background-color: #628cf7;
-    padding: 5em 15em 7.3em 15em;
-    /* display: flex;
-    justify-content: center; */
+    padding: 11rem 0rem;
     text-align: center;
 
     
@@ -39,6 +37,72 @@ button.button{
     margin-left: 2rem;
 }
 
+.main-flex {
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    padding: 11rem 0rem;
+    gap: 3rem;
+    justify-content: center;
+    
+}
+
 .item-img{
+    border: 1px solid grey;
+    width: 30%;
+    text-align: center;
+    align-self: center;
+    height: 16rem;
+}
+
+.item-info{
+    border: 1px solid grey;
+    width: 30%;
+    text-align: center;
+    
+}
+
+.flex-second{
+    display: flex;
+    background-color: rgb(184, 184, 184);
+    padding: 11rem 0rem;
+    gap: 3rem;
+    justify-content: center;
+    flex-direction: row-reverse;
+
+}
+
+.main-lastflex{
+    display: flex;
+    background-color: rgb(184, 184, 184);
+    padding: 11rem 11rem;
+    gap: 2rem;
+    justify-content: center;
+    flex-direction:column-reverse;
+}
+
+.item-img-last{
+    border: 1px solid rgb(172, 172, 172);
+    width: 50%;
+    text-align: center;
+    align-self: center;
+    height: 16rem;
+    order: 1;
+}
+
+.item-info-last{
+    border: 1px solid grey;
+    text-align: center;
+    order: 4;
+}
+
+div > h2{
+    text-align: center;
+    order: 0;
+}
+
+div.main-lastflex > button{
+    width: 11rem;
+    align-self: center;
     order: -1;
 }
+
